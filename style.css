@@ -1,0 +1,45 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+ *{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+ body{
+   background-color: #EAECEF;
+ }
+ input[type=password]:not(.browser-default):not([readonly]){
+  border-radius: 5px;
+  border: 1px solid darkgray ;
+  }
+ input[type=text]:not(.browser-default):not([readonly]){
+border-radius: 5px;
+border: 1px solid darkgray ;
+}
+.my-container{
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 100%;
+}
+.material-icons{
+  margin-top: 10px;
+}
+.number{
+  border: 1px solid darkgray;
+  border-radius: 5px ;
+}
+.add{
+  height: 40px ;
+  border-radius: 5px;
+  border: 1px solid darkgray;
+  margin-top: -20px;
+}
+.btn{
+  background: #00A400;
+  border-radius: 5px;
+}
